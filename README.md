@@ -6,7 +6,7 @@ cd BringgCoffee
 npm install
 node ./src/app.js
 ``` 
-_* Make sure port 3000 is avlaiable_
+_* Make sure port 3000 is available_
 
 # API
 ### **POST /api/oreders**
@@ -27,7 +27,7 @@ curl -X POST \
 ```
 
 ### **POST /api/orders/reorder-previous-week/:phone**
-Recreate all orders from previous weel
+Recreate all orders from previous week
 ```
 curl -X POST \
   'http://localhost:3000/api/orders/reorder-previous-week/+972532030509' \
